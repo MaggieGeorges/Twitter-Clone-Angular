@@ -1,0 +1,12 @@
+<div>
+    <div class="cover-photo" style="background-image: url('assets/download.jpg')"></div>
+    <div class="profile-photo" style="background-image: url('assets/IMG_0262.jpg')"></div>
+    <div class="user-details">
+      <h2>{{ user?.name }}</h2>
+      <p>{{ '@' + user?.username }}</p>
+      <p>{{ user?.website }}</p>
+      <p>{{ user?.company?.catchPhrase }}</p>
+      <p class="user-city">{{ '📍' + user?.address?.city }}</p>
+    </div>
+  </div>
+  
