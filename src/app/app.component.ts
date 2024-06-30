@@ -19,5 +19,5 @@ import { SearchDropdownComponent } from './components/search-dropdown/search-bar
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'JoseTwitterClone';
+  title = 'MaggieTwitterClone';
 }
